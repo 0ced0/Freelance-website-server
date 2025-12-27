@@ -2,7 +2,6 @@ import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
 import User from '../models/UsersDB.js';
 import freeLancers from "../models/freeLancersDB.js";
-import { UsersIcon } from "@heroicons/react/16/solid";
 
 export const registerUser = async (req, res) => {
     const { username, email, password } = req.body;
