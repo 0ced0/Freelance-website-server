@@ -9,6 +9,8 @@ import router from "./routes/Auth.js";
 
 // const uri = "mongodb+srv://nrosscedric_db_user:goodmorning246810@freelance-website.fatvult.mongodb.net/?appName=Freelance-website";
 
+console.log("CWD:", process.cwd());
+
 
 const app = express();
 app.use(cors());
