@@ -3,9 +3,9 @@ import { MongoClient, ServerApiVersion } from "mongodb";
 import bodyParser from "body-parser";
 import dotenv from "dotenv";
 import express from "express";
-import route from "./routes/Router.js"
+import route from "./src/routes/Router.js"
 import cors from "cors";
-import router from "./routes/Auth.js";
+import router from "./src/routes/Auth.js";
 
 // const uri = "mongodb+srv://nrosscedric_db_user:goodmorning246810@freelance-website.fatvult.mongodb.net/?appName=Freelance-website";
 
